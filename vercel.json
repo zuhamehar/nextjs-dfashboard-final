@@ -1,0 +1,73 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "app": {
+      "root": ".",
+      "framework": "nextjs"
+    },
+    "api-routes-starter": {
+      "root": "basics/api-routes-starter",
+      "framework": "nextjs"
+    },
+    "assets-metadata-css-starter": {
+      "root": "basics/assets-metadata-css-starter",
+      "framework": "nextjs"
+    },
+    "basics-final": {
+      "root": "basics/basics-final",
+      "framework": "nextjs"
+    },
+    "data-fetching-starter": {
+      "root": "basics/data-fetching-starter",
+      "framework": "nextjs"
+    },
+    "demo": {
+      "root": "basics/demo",
+      "framework": "nextjs"
+    },
+    "dynamic-routes-starter": {
+      "root": "basics/dynamic-routes-starter",
+      "framework": "nextjs"
+    },
+    "dynamic-routes-step-1": {
+      "root": "basics/dynamic-routes-step-1",
+      "framework": "nextjs"
+    },
+    "learn-starter": {
+      "root": "basics/learn-starter",
+      "framework": "nextjs"
+    },
+    "navigate-between-pages-starter": {
+      "root": "basics/navigate-between-pages-starter",
+      "framework": "nextjs"
+    },
+    "typescript-final": {
+      "root": "basics/typescript-final",
+      "framework": "nextjs"
+    },
+    "final-example": {
+      "root": "dashboard/final-example",
+      "framework": "nextjs"
+    },
+    "starter-example": {
+      "root": "dashboard/starter-example",
+      "framework": "nextjs"
+    },
+    "seo": {
+      "root": "seo",
+      "framework": "nextjs"
+    },
+    "demo-2": {
+      "root": "seo/demo",
+      "framework": "nextjs"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "app"
+      }
+    }
+  ]
+}
